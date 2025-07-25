@@ -1,1 +1,3 @@
-103.191.63.5
+### Daftar ip publik diperbolehkan 
+### serverpoint 64.235.43.206
+### pt industri kreatif digital 151.243.222.93
