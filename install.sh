@@ -39,24 +39,24 @@ checking_sc() {
   if [[ $date_list < $useexp ]]; then
     echo -ne
   else
-    echo -e "\033[1;93mâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€\033[0m"
+    echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     echo -e "\033[42m          404 NOT FOUND AUTOSCRIPT          \033[0m"
-    echo -e "\033[1;93mâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€\033[0m"
+    echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     echo -e ""
     echo -e "            ${RED}PERMISSION DENIED !${NC}"
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
-    echo -e "\033[1;93mâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€\033[0m"
+    echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     exit 0
   fi
 }
 checking_sc
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e " WELCOME RENAISANCE AUTOSCRIPT PREMIUM${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
+echo -e " WELCOME AIXXYCODE.ID AUTOSCRIPT PREMIUM${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
 echo -e " YOUR IP ADDRESS CHECKING PROCESS !!"
 echo -e "${purple}----------------------------------------------------------${NC}"
-echo -e " â€ºAUTHOR : ${green}RENAICANCE${NC}${YELLOW}(${NC}${green}V 3.1${NC}${YELLOW})${NC}"
+echo -e " ›AUTHOR : ${green}AIXXYCODE.ID${NC}${YELLOW}(${NC}${green}V 3.1${NC}${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -383,7 +383,7 @@ wget -O /opt/marzban/nginx.conf "$sfile/config/nginx.conf"
 wget -O /opt/marzban/default.conf "$sfile/config/vps.conf"
 wget -O /opt/marzban/xray.conf "$sfile/config/xray.conf"
 mkdir -p /var/www/html
-echo "<pre>Setup by AutoScript RENAICANCE.ID</pre>" > /var/www/html/index.html
+echo "<pre>Setup by AutoScript AIXXYCODE.ID</pre>" > /var/www/html/index.html
 
 #install socat
 apt install iptables -y
@@ -525,7 +525,7 @@ echo -e "Sett Backup telegram dengan perintah \e[1;32mmenu-backup\e[0m" | tee -a
 echo "-=================================-" | tee -a log-install.txt
 echo -e "Sett reboot otomatis server dengan perintah \e[1;32mmenu-reboot\e[0m" | tee -a log-install.txt
 echo "-=================================-" | tee -a log-install.txt
-echo "Development by RENAISANCE.ID" | tee -a log-install.txt
+echo "Development by AIXXYCODE.ID" | tee -a log-install.txt
 echo "Contact Us: https://t.me/aixxy7" | tee -a log-install.txt
 echo "-=================================-" | tee -a log-install.txt
 echo "Script telah berhasil di install" | tee -a log-install.txt
