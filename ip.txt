@@ -1,3 +1,4 @@
 ### Daftar ip publik diperbolehkan 
 ### serverpoint 64.235.43.206
 ### pt ikd 151.240.0.36
+### nevacloud 103.191.63.5
